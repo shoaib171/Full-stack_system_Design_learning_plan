@@ -33,7 +33,6 @@ That’s the closure
 ✅ The inner function “closes over” the count variable.
 
 ⚙️ Why It Works
-
 Normally, when a function finishes, its variables are destroyed.
 But in closures, JavaScript keeps the variables alive if they’re being used by an inner function that still exists.
 

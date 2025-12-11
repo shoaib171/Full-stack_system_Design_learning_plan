@@ -135,3 +135,9 @@ const animals = ["cat", "dog", "rat"];
 console.log(animals.includes("dog")); // true
 console.log(animals.indexOf("rat")); // 2
 console.log(animals.findIndex((a) => a.startsWith("c"))); // 0
+
+const maxNum = [200, 0, 400, 33, 900];
+const maxValue = Math.max(...maxNum);
+const minValue = Math.min(...maxNum);
+console.log(maxValue);
+console.log(minValue);
